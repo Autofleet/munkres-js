@@ -310,6 +310,7 @@ Munkres.prototype.compute = function(cost_matrix, options) {
     if (!func) // done
       break;
 
+    console.log(step)
     step = func.apply(this);
   }
 
